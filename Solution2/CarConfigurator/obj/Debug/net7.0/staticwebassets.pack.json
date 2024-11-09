@@ -1,0 +1,145 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\CarConfigurator.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CarConfigurator.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\wwwroot\\WebBuild\\.vscode\\settings.json",
+      "PackagePath": "staticwebassets\\WebBuild\\.vscode\\settings.json"
+    },
+    {
+      "Id": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\wwwroot\\WebBuild\\Build\\WebBuild.data.br",
+      "PackagePath": "staticwebassets\\WebBuild\\Build\\WebBuild.data.br"
+    },
+    {
+      "Id": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\wwwroot\\WebBuild\\Build\\WebBuild.framework.js.br",
+      "PackagePath": "staticwebassets\\WebBuild\\Build\\WebBuild.framework.js.br"
+    },
+    {
+      "Id": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\wwwroot\\WebBuild\\Build\\WebBuild.loader.js",
+      "PackagePath": "staticwebassets\\WebBuild\\Build\\WebBuild.loader.js"
+    },
+    {
+      "Id": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\wwwroot\\WebBuild\\Build\\WebBuild.wasm.br",
+      "PackagePath": "staticwebassets\\WebBuild\\Build\\WebBuild.wasm.br"
+    },
+    {
+      "Id": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\wwwroot\\WebBuild\\TemplateData\\favicon.ico",
+      "PackagePath": "staticwebassets\\WebBuild\\TemplateData\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\wwwroot\\WebBuild\\TemplateData\\fullscreen-button.png",
+      "PackagePath": "staticwebassets\\WebBuild\\TemplateData\\fullscreen-button.png"
+    },
+    {
+      "Id": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\wwwroot\\WebBuild\\TemplateData\\progress-bar-empty-dark.png",
+      "PackagePath": "staticwebassets\\WebBuild\\TemplateData\\progress-bar-empty-dark.png"
+    },
+    {
+      "Id": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\wwwroot\\WebBuild\\TemplateData\\progress-bar-empty-light.png",
+      "PackagePath": "staticwebassets\\WebBuild\\TemplateData\\progress-bar-empty-light.png"
+    },
+    {
+      "Id": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\wwwroot\\WebBuild\\TemplateData\\progress-bar-full-dark.png",
+      "PackagePath": "staticwebassets\\WebBuild\\TemplateData\\progress-bar-full-dark.png"
+    },
+    {
+      "Id": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\wwwroot\\WebBuild\\TemplateData\\progress-bar-full-light.png",
+      "PackagePath": "staticwebassets\\WebBuild\\TemplateData\\progress-bar-full-light.png"
+    },
+    {
+      "Id": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\wwwroot\\WebBuild\\TemplateData\\style.css",
+      "PackagePath": "staticwebassets\\WebBuild\\TemplateData\\style.css"
+    },
+    {
+      "Id": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\wwwroot\\WebBuild\\TemplateData\\unity-logo-dark.png",
+      "PackagePath": "staticwebassets\\WebBuild\\TemplateData\\unity-logo-dark.png"
+    },
+    {
+      "Id": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\wwwroot\\WebBuild\\TemplateData\\unity-logo-light.png",
+      "PackagePath": "staticwebassets\\WebBuild\\TemplateData\\unity-logo-light.png"
+    },
+    {
+      "Id": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\wwwroot\\WebBuild\\TemplateData\\webgl-logo.png",
+      "PackagePath": "staticwebassets\\WebBuild\\TemplateData\\webgl-logo.png"
+    },
+    {
+      "Id": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\wwwroot\\WebBuild\\index.html",
+      "PackagePath": "staticwebassets\\WebBuild\\index.html"
+    },
+    {
+      "Id": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\wwwroot\\carlogo.png",
+      "PackagePath": "staticwebassets\\carlogo.png"
+    },
+    {
+      "Id": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.CarConfigurator.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.CarConfigurator.props",
+      "PackagePath": "build\\CarConfigurator.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.CarConfigurator.props",
+      "PackagePath": "buildMultiTargeting\\CarConfigurator.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.CarConfigurator.props",
+      "PackagePath": "buildTransitive\\CarConfigurator.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

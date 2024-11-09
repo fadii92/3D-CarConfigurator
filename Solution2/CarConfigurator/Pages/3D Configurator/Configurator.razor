@@ -1,0 +1,213 @@
+﻿@page "/configurator"
+@using CustomerLibraryModel
+@using CustomerLibraryDAL
+@using CustomerModel;
+
+@*     <div class="container">
+        <div class="car-container">
+            <h1>3D Model of the Car</h1>
+            <img src="car.png" alt="3D Car Model" class="car-model">
+        </div>
+        <div class="options-container">
+            <h1>Customization Options</h1>
+            <div class="options">
+                <h2>Exterior Colors</h2>
+                <input type="radio" id="color1" name="color" value="color1">
+                <label for="color1">Color 1</label><br>
+                <input type="radio" id="color2" name="color" value="color2">
+                <label for="color2">Color 2</label><br>
+                <input type="radio" id="color3" name="color" value="color3">
+                <label for="color3">Color 3</label><br>
+            </div>
+            <div class="options">
+                <h2>Wheels</h2>
+                <input type="radio" id="wheel1" name="wheel" value="wheel1">
+                <label for="wheel1">Wheel 1</label><br>
+                <input type="radio" id="wheel2" name="wheel" value="wheel2">
+                <label for="wheel2">Wheel 2</label><br>
+                <input type="radio" id="wheel3" name="wheel" value="wheel3">
+                <label for="wheel3">Wheel 3</label><br>
+            </div>
+            <div class="options">
+                <h2>Interior Designs</h2>
+                <input type="radio" id="interior1" name="interior" value="interior1">
+                <label for="interior1">Interior 1</label><br>
+                <input type="radio" id="interior2" name="interior" value="interior2">
+                <label for="interior2">Interior 2</label><br>
+                <input type="radio" id="interior3" name="interior" value="interior3">
+                <label for="interior3">Interior 3</label><br>
+            </div>
+        </div>
+    </div> *@
+@* <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Configurator</title>
+</head>
+<body>
+    <iframe src="WebBuild/index.html" width="800" height="600"></iframe>
+</body>
+</html> *@
+   @*  <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://images.unsplash.com/photo-1593055339366-26882b66e012?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover;
+            background-position: center;
+            height: 100vh; /* Set the height of the body to 100% of the viewport height */
+        }
+        h1 {
+            background-color:azure;
+            text-align:left;
+
+        }
+
+        .container {
+            display: flex;
+            max-width: 1200px;
+        }
+
+        .car-container {
+            flex: 1;
+            text-align: center;
+        }
+
+        .car-container h3{
+            margin-top: 45px;
+            background: lightblue;
+            font-weight: bold;
+            font-size: 27px;
+            border-radius: 9px;
+        }
+
+        .car-model {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .options-container {
+            margin-top:-987px;
+            width: 30%;
+            padding-top: 45px;
+            padding-right: 37px;
+            display:flex;
+            flex-direction:column;
+            height: 890px;
+            padding-left: 15px;
+        }
+
+        .options-container h3{
+            background-color: lightblue;
+            font-weight: bold;
+            font-size: 27px;
+            border-radius: 9px;
+            text-align: center;
+            margin-left: 20px;
+
+        }
+
+        .options {
+            margin-bottom: 140px;
+            width: 160px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            border-radius: 7px;
+            background: lightblue;
+            padding-left: 8px;
+            margin-left: 30px;
+            align-items: 
+        }
+
+        .bg-glass{
+            /* From https://css.glass */
+            background: rgba(255, 255, 255, 0.21);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(4.9px);
+            -webkit-backdrop-filter: blur(4.9px);
+            border: 1px solid rgba(255, 255, 255, 0.35);
+            display: flex;
+            max-width: 1000px;
+        }
+    </style>
+</head>
+<body>
+    <div class="row ">
+        <div class="row flex justify-content-lg-start" style="margin-top: 100px;">
+            <div class=" text-dark bg-glass">
+                <div class="car-container">
+                    <h3>3D Model of the Car</h3>
+                    <img src="https://via.placeholder.com/800x800" alt="3D Car Model" class="car-model">
+                </div>
+            </div>
+        </div>
+
+        <div class="row flex justify-content-lg-end" style="margin-top: 100px;">
+            <div class="options-container bg-glass">
+                <h3>Customization Options</h3>
+
+                    <select class="options">
+                        <option disabled selected>Paints</option>
+                        @foreach (var item in cust)
+                        {
+                            <option value="@item.Paints">@item.Paints</option>
+                        }
+                    </select>
+                    <select class="options">
+                        <option disabled selected>Models</option>
+                        @foreach (var item in cust)
+                        {
+                            <option value="@item.Models">@item.Models</option>
+                        }
+                    </select>
+                    <select class="options">
+                        <option disabled selected>Rims</option>
+                        @foreach (var item in cust)
+                        {
+                            <option value="@item.Rims">@item.Rims</option>
+                        }
+                    </select>
+                    <select class="options">
+                        <option disabled selected>Stickers</option>
+                        @foreach (var item in cust)
+                        {
+                            <option value="@item.Stickers">@item.Stickers</option>
+                        }
+                    </select>
+                    @* <select class="options">
+                    <option disabled selected>Vendors</option>
+                    @foreach (var item in cust)
+                    {
+                    <option value="@item.Vendors">@item.Vendors</option>
+                    }
+                    </select>
+                    <select class="options">
+                    <option disabled selected>Price</option>
+                    @foreach (var item in cust)
+                    {
+                    <option value="@item.Price">@item.Price</option>
+                    }
+                    </select>
+
+            </div>
+        </div>
+    </div>
+
+
+    </body>*@
+
+@code {
+    private NewCustomerModel newcustomermodel { get; set; } = new NewCustomerModel();
+    List<CustomersModell> cust = new List<CustomersModell>();
+    private void getCustModel()
+    {
+        cust = CustomersDAL.GetCustomerModels();
+    }
+    protected override void OnInitialized()
+    {
+        getCustModel();
+    }
+} 

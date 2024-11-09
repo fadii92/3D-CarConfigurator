@@ -1,0 +1,91 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CarConfigurator
+build_property.RootNamespace = CarConfigurator
+build_property.ProjectDir = E:\Car Configurator\Car Configurator\Solution2\CarConfigurator\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\Car Configurator\Car Configurator\Solution2\CarConfigurator
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/Car Configurator/Car Configurator/Solution2/CarConfigurator/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Car Configurator/Car Configurator/Solution2/CarConfigurator/Pages/3D Configurator/Configurator.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcM0QgQ29uZmlndXJhdG9yXENvbmZpZ3VyYXRvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Car Configurator/Car Configurator/Solution2/CarConfigurator/Pages/Auth/AdminLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aFxBZG1pbkxvZ2luLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Car Configurator/Car Configurator/Solution2/CarConfigurator/Pages/Auth/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aFxMb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Car Configurator/Car Configurator/Solution2/CarConfigurator/Pages/Auth/Signup.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aFxTaWdudXAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Car Configurator/Car Configurator/Solution2/CarConfigurator/Pages/Contact Us/Contact.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdCBVc1xDb250YWN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Car Configurator/Car Configurator/Solution2/CarConfigurator/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Car Configurator/Car Configurator/Solution2/CarConfigurator/Pages/Exterior/Categories.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXh0ZXJpb3JcQ2F0ZWdvcmllcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Car Configurator/Car Configurator/Solution2/CarConfigurator/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Car Configurator/Car Configurator/Solution2/CarConfigurator/Pages/Home/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Car Configurator/Car Configurator/Solution2/CarConfigurator/Pages/NewFolder/About.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3Rm9sZGVyXEFib3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Car Configurator/Car Configurator/Solution2/CarConfigurator/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Car Configurator/Car Configurator/Solution2/CarConfigurator/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Car Configurator/Car Configurator/Solution2/CarConfigurator/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-xdex3h3awa
+
+[E:/Car Configurator/Car Configurator/Solution2/CarConfigurator/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-lsss17glao
+
+[E:/Car Configurator/Car Configurator/Solution2/CarConfigurator/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Car Configurator/Car Configurator/Solution2/CarConfigurator/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Car Configurator/Car Configurator/Solution2/CarConfigurator/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

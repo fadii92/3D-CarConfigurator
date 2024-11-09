@@ -1,0 +1,87 @@
+﻿@using BlazorServerAuthenticationAndAuthorization.Authentication
+@inherits LayoutComponentBase
+@inject NavigationManager navManager
+@inject AuthenticationStateProvider authStateProvider
+<PageTitle>CarConfigurator</PageTitle>
+<style>
+    .main-nav {
+        display: flex;
+        width:100%;
+        background:white;
+        height: 85px;
+        padding-top: 5px;
+        padding-left: 45px;
+        padding-bottom: 50px;
+    } 
+   
+</style>
+
+<div class="page">
+    @* <div class="sidebar">
+        <NavMenu />
+    </div> *@
+
+    <main>
+        <div class="main-nav">
+            <div>
+                <a href=""><img src="carlogo.png" width="75px" /></a>
+                @* <AuthorizeView Roles="Administrator">
+                    <Authorized>
+                        <a href="categories" class="btn btn-primary">Categories</a>
+                        <a href="configurator" class="btn btn-primary">3D Configurator</a>
+                        <a @onclick="Logout" class="btn btn-primary" href="javascript:void(0)">Logout</a>
+                    </Authorized>
+                    <NotAuthorized>
+                         <a href="login" class="btn btn-primary">Login</a>
+                        @*<a href="" class="btn btn-primary" style="">Home</a>
+                    </NotAuthorized>
+                </AuthorizeView> *@
+                <AuthorizeView Roles="Administrator">
+                    <Authorized>
+                        <a href="categories" class="btn btn-primary">Categories</a> 
+                        <a href="http://localhost:56516/" class="btn btn-primary" target="_blanks">3D Configurator</a>
+                        <a href="contact" class="btn btn-primary">Contact Us</a>
+                        <a href="about" class="btn btn-primary">About</a>
+                        <a @onclick="Logout" class="btn btn-primary" href="javascript:void(0)">Logout</a>
+                    </Authorized>
+                </AuthorizeView>
+                    
+
+                <AuthorizeView Roles="user">
+                    <Authorized>
+                        <a href="http://localhost:56516/" class="btn btn-primary" target="_blank">3D Configurator</a>
+                        <a href="contact" class="btn btn-primary">Contact Us</a>
+                        <a href="about" class="btn btn-primary">About</a>
+                        <a @onclick="Logout" class="btn btn-primary" href="javascript:void(0)">Logout</a>
+                       
+                    </Authorized>
+                </AuthorizeView>
+                @* <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a> *@
+                <AuthorizeView>
+                    <NotAuthorized>
+                        <a href="" class="btn btn-primary">Home</a>
+                        <a href="about" class="btn btn-primary">About</a>
+                        <a href="login" class="btn btn-primary">UserLogin</a>
+                        <a href="alogin" class="btn btn-primary">AdminLogin</a>
+                    </NotAuthorized>
+                </AuthorizeView>
+            </div>
+                <AuthorizeView>
+                    <NotAuthorized>
+                        <h3 style="margin: 20px; margin-left: 40%">Car Clues Car Configurator</h3>
+                    </NotAuthorized>
+                </AuthorizeView>
+        </div>
+
+        <article>
+            @Body
+        </article>
+    </main>
+</div>
+@code {
+    private async Task Logout(){
+        var customAuthStateProvider = (CustomAuthenticationStateProvider)authStateProvider;
+        await customAuthStateProvider.UpdateAuthenticationState(null);
+        navManager.NavigateTo("/", true);
+    }
+}

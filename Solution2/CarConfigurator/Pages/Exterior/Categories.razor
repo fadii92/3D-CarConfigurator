@@ -1,0 +1,122 @@
+﻿@page "/categories"
+@using CustomerLibraryDAL
+@using CustomerLibraryModel
+@attribute [Authorize(Roles = "Administrator")]
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url('https://images.unsplash.com/photo-1593055339366-26882b66e012?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        background-size: cover;
+        background-position: center;
+        height: 100vh; /* Set the height of the body to 100% of the viewport height */
+    }
+    .bg-glass {
+        /* From https://css.glass */
+        background: rgba(255, 255, 255, 0.21);
+        border-radius: 20px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(7.9px);
+        -webkit-backdrop-filter: blur(7.9px);
+        border: 1px solid rgba(255, 255, 255, 0.35);
+        display: flex;
+        max-width: 1050px;
+        padding: 40px;
+        margin-left: 190px;
+    }
+    /* .container {
+        padding: 40px; /* Adjust padding as needed */
+        border-radius: 20px; /* Optional: Add border-radius for rounded corners */
+    } */
+</style>
+
+    <div class="bg-glass mt-4">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Edit Items</h3>
+                <EditForm id="editForm" Model="customermodel" OnSubmit="SaveCategories">
+                    <div class="mb-3">
+                        <label for="rims" class="form-label">Rims</label>
+                        <input type="text" class="form-control" id="rims" @bind-value="customermodel.Rims" placeholder="Rims" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="paints" class="form-label">Paints</label>
+                        <input type="text" class="form-control" id="paints" @bind-value="customermodel.Paints" placeholder="Paints" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="stickers" class="form-label">Stickers</label>
+                        <input type="text" class="form-control" id="stickers" @bind-value="customermodel.Stickers" placeholder="Stickers" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="models" class="form-label">Models</label>
+                        <input type="text" class="form-control" id="models" @bind-value="customermodel.Models" placeholder="Models" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="vendors" class="form-label">Vendors</label>
+                        <input type="text" class="form-control" id="vendors" @bind-value="customermodel.Vendors" placeholder="Vendors" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="price" class="form-label">Price</label>
+                        <input type="text" class="form-control" id="price" @bind-value="customermodel.Price" placeholder="Price" />
+                    </div>
+                    <button type="submit" class="btn btn-primary">Save Categories</button>
+                </EditForm>
+            </div>
+            <div class="col-md-6">
+                <h3>Items List</h3>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Rims</th>
+                            <th>Paints</th>
+                            <th>Stickers</th>
+                            <th>Models</th>
+                            <th>Vendors</th>
+                            <th>Price</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                   <tbody style="font-weight:bold">
+                        @foreach (var item in customersList)
+                        {
+                        <tr>
+                        <td>@item.Rims</td>
+                        <td>@item.Paints</td>
+                        <td>@item.Stickers</td>
+                        <td>@item.Models</td>
+                        <td>@item.Vendors</td>
+                        <td>@item.Price</td>
+                        @* <td>
+                        <!-- Button for delete with onclick event -->
+                        <button class="btn btn-danger" @onclick="@(() => DeleteItem(item))">Delete</button>
+                        <!-- Button for update with onclick event -->
+                        <button class="btn btn-secondary" @onclick="@(() => UpdateItem(item))">Update</button>
+                        </td> *@
+                        </tr>
+                        }
+                   </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+@code {
+    private string? Message { get; set; }
+    private CustomersModell customermodel { get; set; } = new CustomersModell();
+    private List<CustomersModell> customersList = new List<CustomersModell>();
+    public void SaveCategories()
+    {
+        int i = CustomersDAL.SaveCategories(customermodel);
+        if (i == 1)
+        {
+            Message = "Data Save Successfully";
+            GetCustomers();
+        }
+    }
+    protected override void OnInitialized() => GetCustomers();
+    private void GetCustomers() => customersList = CustomersDAL.GetCustomerModels();
+
+}

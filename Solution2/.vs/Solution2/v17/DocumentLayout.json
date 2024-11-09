@@ -1,0 +1,377 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Car Configurator\\Car Configurator\\Solution2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF777D3-2664-4C5A-9F37-D84951D18A00}|CarConfigurator\\CarConfigurator.csproj|e:\\car configurator\\car configurator\\solution2\\carconfigurator\\pages\\home\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACF777D3-2664-4C5A-9F37-D84951D18A00}|CarConfigurator\\CarConfigurator.csproj|solutionrelative:carconfigurator\\pages\\home\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DAB2B-3D18-44B0-84AE-9C0DB4185A92}|CustomerLibraryDAL\\CustomerLibraryDAL.csproj|e:\\car configurator\\car configurator\\solution2\\customerlibrarydal\\customerlibrarydal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D56DAB2B-3D18-44B0-84AE-9C0DB4185A92}|CustomerLibraryDAL\\CustomerLibraryDAL.csproj|solutionrelative:customerlibrarydal\\customerlibrarydal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF777D3-2664-4C5A-9F37-D84951D18A00}|CarConfigurator\\CarConfigurator.csproj|e:\\car configurator\\car configurator\\solution2\\carconfigurator\\carconfigurator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ACF777D3-2664-4C5A-9F37-D84951D18A00}|CarConfigurator\\CarConfigurator.csproj|solutionrelative:carconfigurator\\carconfigurator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF777D3-2664-4C5A-9F37-D84951D18A00}|CarConfigurator\\CarConfigurator.csproj|e:\\car configurator\\car configurator\\solution2\\carconfigurator\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACF777D3-2664-4C5A-9F37-D84951D18A00}|CarConfigurator\\CarConfigurator.csproj|solutionrelative:carconfigurator\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B00E8205-8B12-445F-BDBA-ECE60082112F}|CustomerLibraryModel\\CustomerLibraryModel.csproj|e:\\car configurator\\car configurator\\solution2\\customerlibrarymodel\\customermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B00E8205-8B12-445F-BDBA-ECE60082112F}|CustomerLibraryModel\\CustomerLibraryModel.csproj|solutionrelative:customerlibrarymodel\\customermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DAB2B-3D18-44B0-84AE-9C0DB4185A92}|CustomerLibraryDAL\\CustomerLibraryDAL.csproj|e:\\car configurator\\car configurator\\solution2\\customerlibrarydal\\customersdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56DAB2B-3D18-44B0-84AE-9C0DB4185A92}|CustomerLibraryDAL\\CustomerLibraryDAL.csproj|solutionrelative:customerlibrarydal\\customersdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF777D3-2664-4C5A-9F37-D84951D18A00}|CarConfigurator\\CarConfigurator.csproj|e:\\car configurator\\car configurator\\solution2\\carconfigurator\\pages\\auth\\signup.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACF777D3-2664-4C5A-9F37-D84951D18A00}|CarConfigurator\\CarConfigurator.csproj|solutionrelative:carconfigurator\\pages\\auth\\signup.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DAB2B-3D18-44B0-84AE-9C0DB4185A92}|CustomerLibraryDAL\\CustomerLibraryDAL.csproj|e:\\car configurator\\car configurator\\solution2\\customerlibrarydal\\custdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56DAB2B-3D18-44B0-84AE-9C0DB4185A92}|CustomerLibraryDAL\\CustomerLibraryDAL.csproj|solutionrelative:customerlibrarydal\\custdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B00E8205-8B12-445F-BDBA-ECE60082112F}|CustomerLibraryModel\\CustomerLibraryModel.csproj|e:\\car configurator\\car configurator\\solution2\\customerlibrarymodel\\customersmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B00E8205-8B12-445F-BDBA-ECE60082112F}|CustomerLibraryModel\\CustomerLibraryModel.csproj|solutionrelative:customerlibrarymodel\\customersmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DAB2B-3D18-44B0-84AE-9C0DB4185A92}|CustomerLibraryDAL\\CustomerLibraryDAL.csproj|e:\\car configurator\\car configurator\\solution2\\customerlibrarydal\\newcustomerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56DAB2B-3D18-44B0-84AE-9C0DB4185A92}|CustomerLibraryDAL\\CustomerLibraryDAL.csproj|solutionrelative:customerlibrarydal\\newcustomerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF777D3-2664-4C5A-9F37-D84951D18A00}|CarConfigurator\\CarConfigurator.csproj|e:\\car configurator\\car configurator\\solution2\\carconfigurator\\pages\\exterior\\categories.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACF777D3-2664-4C5A-9F37-D84951D18A00}|CarConfigurator\\CarConfigurator.csproj|solutionrelative:carconfigurator\\pages\\exterior\\categories.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF777D3-2664-4C5A-9F37-D84951D18A00}|CarConfigurator\\CarConfigurator.csproj|e:\\car configurator\\car configurator\\solution2\\carconfigurator\\pages\\contact us\\contact.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACF777D3-2664-4C5A-9F37-D84951D18A00}|CarConfigurator\\CarConfigurator.csproj|solutionrelative:carconfigurator\\pages\\contact us\\contact.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF777D3-2664-4C5A-9F37-D84951D18A00}|CarConfigurator\\CarConfigurator.csproj|e:\\car configurator\\car configurator\\solution2\\carconfigurator\\pages\\3d configurator\\configurator.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACF777D3-2664-4C5A-9F37-D84951D18A00}|CarConfigurator\\CarConfigurator.csproj|solutionrelative:carconfigurator\\pages\\3d configurator\\configurator.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF777D3-2664-4C5A-9F37-D84951D18A00}|CarConfigurator\\CarConfigurator.csproj|e:\\car configurator\\car configurator\\solution2\\carconfigurator\\pages\\newfolder\\about.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACF777D3-2664-4C5A-9F37-D84951D18A00}|CarConfigurator\\CarConfigurator.csproj|solutionrelative:carconfigurator\\pages\\newfolder\\about.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF777D3-2664-4C5A-9F37-D84951D18A00}|CarConfigurator\\CarConfigurator.csproj|e:\\car configurator\\car configurator\\solution2\\carconfigurator\\pages\\auth\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACF777D3-2664-4C5A-9F37-D84951D18A00}|CarConfigurator\\CarConfigurator.csproj|solutionrelative:carconfigurator\\pages\\auth\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF777D3-2664-4C5A-9F37-D84951D18A00}|CarConfigurator\\CarConfigurator.csproj|e:\\car configurator\\car configurator\\solution2\\carconfigurator\\pages\\auth\\adminlogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACF777D3-2664-4C5A-9F37-D84951D18A00}|CarConfigurator\\CarConfigurator.csproj|solutionrelative:carconfigurator\\pages\\auth\\adminlogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF777D3-2664-4C5A-9F37-D84951D18A00}|CarConfigurator\\CarConfigurator.csproj|e:\\car configurator\\car configurator\\solution2\\carconfigurator\\authentication\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACF777D3-2664-4C5A-9F37-D84951D18A00}|CarConfigurator\\CarConfigurator.csproj|solutionrelative:carconfigurator\\authentication\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF777D3-2664-4C5A-9F37-D84951D18A00}|CarConfigurator\\CarConfigurator.csproj|e:\\car configurator\\car configurator\\solution2\\carconfigurator\\authentication\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACF777D3-2664-4C5A-9F37-D84951D18A00}|CarConfigurator\\CarConfigurator.csproj|solutionrelative:carconfigurator\\authentication\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF777D3-2664-4C5A-9F37-D84951D18A00}|CarConfigurator\\CarConfigurator.csproj|e:\\car configurator\\car configurator\\solution2\\carconfigurator\\authentication\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACF777D3-2664-4C5A-9F37-D84951D18A00}|CarConfigurator\\CarConfigurator.csproj|solutionrelative:carconfigurator\\authentication\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF777D3-2664-4C5A-9F37-D84951D18A00}|CarConfigurator\\CarConfigurator.csproj|e:\\car configurator\\car configurator\\solution2\\carconfigurator\\pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACF777D3-2664-4C5A-9F37-D84951D18A00}|CarConfigurator\\CarConfigurator.csproj|solutionrelative:carconfigurator\\pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF777D3-2664-4C5A-9F37-D84951D18A00}|CarConfigurator\\CarConfigurator.csproj|e:\\car configurator\\car configurator\\solution2\\carconfigurator\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACF777D3-2664-4C5A-9F37-D84951D18A00}|CarConfigurator\\CarConfigurator.csproj|solutionrelative:carconfigurator\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerLibraryDAL",
+              "DocumentMoniker": "E:\\Car Configurator\\Car Configurator\\Solution2\\CustomerLibraryDAL\\CustomerLibraryDAL.csproj",
+              "RelativeDocumentMoniker": "CustomerLibraryDAL\\CustomerLibraryDAL.csproj",
+              "ToolTip": "E:\\Car Configurator\\Car Configurator\\Solution2\\CustomerLibraryDAL\\CustomerLibraryDAL.csproj",
+              "RelativeToolTip": "CustomerLibraryDAL\\CustomerLibraryDAL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-04T14:11:45.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarConfigurator",
+              "DocumentMoniker": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\CarConfigurator.csproj",
+              "RelativeDocumentMoniker": "CarConfigurator\\CarConfigurator.csproj",
+              "ToolTip": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\CarConfigurator.csproj",
+              "RelativeToolTip": "CarConfigurator\\CarConfigurator.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-04T14:11:22.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerMODEL.cs",
+              "DocumentMoniker": "E:\\Car Configurator\\Car Configurator\\Solution2\\CustomerLibraryModel\\CustomerMODEL.cs",
+              "RelativeDocumentMoniker": "CustomerLibraryModel\\CustomerMODEL.cs",
+              "ToolTip": "E:\\Car Configurator\\Car Configurator\\Solution2\\CustomerLibraryModel\\CustomerMODEL.cs",
+              "RelativeToolTip": "CustomerLibraryModel\\CustomerMODEL.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAA0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T09:11:44.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomersDAL.cs",
+              "DocumentMoniker": "E:\\Car Configurator\\Car Configurator\\Solution2\\CustomerLibraryDAL\\CustomersDAL.cs",
+              "RelativeDocumentMoniker": "CustomerLibraryDAL\\CustomersDAL.cs",
+              "ToolTip": "E:\\Car Configurator\\Car Configurator\\Solution2\\CustomerLibraryDAL\\CustomersDAL.cs",
+              "RelativeToolTip": "CustomerLibraryDAL\\CustomersDAL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T07:13:17.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Signup.razor",
+              "DocumentMoniker": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\Pages\\Auth\\Signup.razor",
+              "RelativeDocumentMoniker": "CarConfigurator\\Pages\\Auth\\Signup.razor",
+              "ToolTip": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\Pages\\Auth\\Signup.razor",
+              "RelativeToolTip": "CarConfigurator\\Pages\\Auth\\Signup.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-20T13:00:25.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.razor",
+              "DocumentMoniker": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\Pages\\Home\\Index.razor",
+              "RelativeDocumentMoniker": "CarConfigurator\\Pages\\Home\\Index.razor",
+              "ToolTip": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\Pages\\Home\\Index.razor",
+              "RelativeToolTip": "CarConfigurator\\Pages\\Home\\Index.razor",
+              "ViewState": "AQIAAIEAAAAAAAAAAABAPZgAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-21T09:02:50.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "CarConfigurator\\Shared\\MainLayout.razor",
+              "ToolTip": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "CarConfigurator\\Shared\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-21T06:25:57.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustDAL.cs",
+              "DocumentMoniker": "E:\\Car Configurator\\Car Configurator\\Solution2\\CustomerLibraryDAL\\CustDAL.cs",
+              "RelativeDocumentMoniker": "CustomerLibraryDAL\\CustDAL.cs",
+              "ToolTip": "E:\\Car Configurator\\Car Configurator\\Solution2\\CustomerLibraryDAL\\CustDAL.cs",
+              "RelativeToolTip": "CustomerLibraryDAL\\CustDAL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T04:52:11.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomersModel.cs",
+              "DocumentMoniker": "E:\\Car Configurator\\Car Configurator\\Solution2\\CustomerLibraryModel\\CustomersModel.cs",
+              "RelativeDocumentMoniker": "CustomerLibraryModel\\CustomersModel.cs",
+              "ToolTip": "E:\\Car Configurator\\Car Configurator\\Solution2\\CustomerLibraryModel\\CustomersModel.cs",
+              "RelativeToolTip": "CustomerLibraryModel\\CustomersModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T12:53:54.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NewCustomerDAL.cs",
+              "DocumentMoniker": "E:\\Car Configurator\\Car Configurator\\Solution2\\CustomerLibraryDAL\\NewCustomerDAL.cs",
+              "RelativeDocumentMoniker": "CustomerLibraryDAL\\NewCustomerDAL.cs",
+              "ToolTip": "E:\\Car Configurator\\Car Configurator\\Solution2\\CustomerLibraryDAL\\NewCustomerDAL.cs",
+              "RelativeToolTip": "CustomerLibraryDAL\\NewCustomerDAL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T09:39:31.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Contact.razor",
+              "DocumentMoniker": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\Pages\\Contact Us\\Contact.razor",
+              "RelativeDocumentMoniker": "CarConfigurator\\Pages\\Contact Us\\Contact.razor",
+              "ToolTip": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\Pages\\Contact Us\\Contact.razor",
+              "RelativeToolTip": "CarConfigurator\\Pages\\Contact Us\\Contact.razor",
+              "ViewState": "AQIAAEwAAACAMTMzMzMrwH8AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T19:54:19.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Configurator.razor",
+              "DocumentMoniker": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\Pages\\3D Configurator\\Configurator.razor",
+              "RelativeDocumentMoniker": "CarConfigurator\\Pages\\3D Configurator\\Configurator.razor",
+              "ToolTip": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\Pages\\3D Configurator\\Configurator.razor",
+              "RelativeToolTip": "CarConfigurator\\Pages\\3D Configurator\\Configurator.razor",
+              "ViewState": "AQIAAAAAAABwZmZmZmYkwFQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T06:24:59.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.razor",
+              "DocumentMoniker": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\Pages\\Auth\\Login.razor",
+              "RelativeDocumentMoniker": "CarConfigurator\\Pages\\Auth\\Login.razor",
+              "ToolTip": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\Pages\\Auth\\Login.razor",
+              "RelativeToolTip": "CarConfigurator\\Pages\\Auth\\Login.razor",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAIwHEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-21T16:59:00.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Categories.razor",
+              "DocumentMoniker": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\Pages\\Exterior\\Categories.razor",
+              "RelativeDocumentMoniker": "CarConfigurator\\Pages\\Exterior\\Categories.razor",
+              "ToolTip": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\Pages\\Exterior\\Categories.razor",
+              "RelativeToolTip": "CarConfigurator\\Pages\\Exterior\\Categories.razor",
+              "ViewState": "AQIAAGsAAAAAMzMzMzMbwCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-20T12:54:59.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "About.razor",
+              "DocumentMoniker": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\Pages\\NewFolder\\About.razor",
+              "RelativeDocumentMoniker": "CarConfigurator\\Pages\\NewFolder\\About.razor",
+              "ToolTip": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\Pages\\NewFolder\\About.razor",
+              "RelativeToolTip": "CarConfigurator\\Pages\\NewFolder\\About.razor",
+              "ViewState": "AQIAACIAAAAAZmZmZmYkwC0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T19:20:05.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminLogin.razor",
+              "DocumentMoniker": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\Pages\\Auth\\AdminLogin.razor",
+              "RelativeDocumentMoniker": "CarConfigurator\\Pages\\Auth\\AdminLogin.razor",
+              "ToolTip": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\Pages\\Auth\\AdminLogin.razor",
+              "RelativeToolTip": "CarConfigurator\\Pages\\Auth\\AdminLogin.razor",
+              "ViewState": "AQIAAEQAAADw//////9QwF4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-13T09:18:25.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserAccount.cs",
+              "DocumentMoniker": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\Authentication\\UserAccount.cs",
+              "RelativeDocumentMoniker": "CarConfigurator\\Authentication\\UserAccount.cs",
+              "ToolTip": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\Authentication\\UserAccount.cs",
+              "RelativeToolTip": "CarConfigurator\\Authentication\\UserAccount.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T09:55:15.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CustomAuthenticationStateProvider.cs",
+              "DocumentMoniker": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\Authentication\\CustomAuthenticationStateProvider.cs",
+              "RelativeDocumentMoniker": "CarConfigurator\\Authentication\\CustomAuthenticationStateProvider.cs",
+              "ToolTip": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\Authentication\\CustomAuthenticationStateProvider.cs",
+              "RelativeToolTip": "CarConfigurator\\Authentication\\CustomAuthenticationStateProvider.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T10:03:14.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\Authentication\\UserSession.cs",
+              "RelativeDocumentMoniker": "CarConfigurator\\Authentication\\UserSession.cs",
+              "ToolTip": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\Authentication\\UserSession.cs",
+              "RelativeToolTip": "CarConfigurator\\Authentication\\UserSession.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T10:02:55.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FetchData.razor",
+              "DocumentMoniker": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\Pages\\FetchData.razor",
+              "RelativeDocumentMoniker": "CarConfigurator\\Pages\\FetchData.razor",
+              "ToolTip": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\Pages\\FetchData.razor",
+              "RelativeToolTip": "CarConfigurator\\Pages\\FetchData.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T11:27:28.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\Pages\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CarConfigurator\\Pages\\_Layout.cshtml",
+              "ToolTip": "E:\\Car Configurator\\Car Configurator\\Solution2\\CarConfigurator\\Pages\\_Layout.cshtml",
+              "RelativeToolTip": "CarConfigurator\\Pages\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T06:03:01.774Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

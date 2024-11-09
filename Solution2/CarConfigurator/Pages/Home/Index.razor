@@ -1,0 +1,161 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Configurator - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .slider {
+            position: relative;
+            max-width: 100%;
+            margin: 20px auto;
+        }
+
+        .slides {
+            display: flex;
+            overflow: hidden;
+            width: 300%;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .slide {
+            width: 100%;
+            flex: 1;
+        }
+
+            .slide img {
+                width: 100%;
+                display: block;
+            }
+
+        .navigation {
+            position: absolute;
+            width: 100%;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            justify-content: space-between;
+            z-index: 10;
+        }
+
+            .navigation button {
+                background: rgba(0, 0, 0, 0.5);
+                border: none;
+                padding: 10px;
+                color: #fff;
+                cursor: pointer;
+            }
+
+        .info-section {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+            .info-section h2 {
+                margin-bottom: 10px;
+            }
+
+            .info-section p {
+                margin-bottom: 20px;
+                line-height: 1.6;
+            }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff6600;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+    <script>
+        let currentSlide = 0;
+        function showSlide(index) {
+            const slides = document.querySelector('.slides');
+            const totalSlides = slides.children.length;
+            if (index >= totalSlides) {
+                currentSlide = 0;
+            } else if (index < 0) {
+                currentSlide = totalSlides - 1;
+            } else {
+                currentSlide = index;
+            }
+            slides.style.transform = 'translateX(' + (-currentSlide * 100) + '%)';
+        }
+        function nextSlide() {
+            showSlide(currentSlide + 1);
+        }
+        function previousSlide() {
+            showSlide(currentSlide - 1);
+        }
+        setInterval(nextSlide, 3000);
+    </script>
+</head>
+<body>
+    @* <header>
+        <div class="container">
+            <h1>Car Configurator</h1>
+        </div>
+    </header> *@
+    <div class="slider">
+        <div class="slides">
+            <div class="slide"><img src="https://cdn.pixabay.com/photo/2017/03/27/14/56/auto-2179220_1280.jpg" alt="Car 1"></div>
+            <div class="slide"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu7FrSQN_j89ARRQTikmqxfG8NrTKHpQQSAA&s" alt="Car 2"></div>
+            <div class="slide"><img src="https://cdn.pixabay.com/photo/2016/11/29/06/20/auto-1868726_1280.jpg" alt="Car 3"></div>
+        </div>
+        <div class="navigation">
+            <button onclick="previousSlide()">&#10094;</button>
+            <button onclick="nextSlide()">&#10095;</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <div class="container">
+        <div class="info-section">
+            <h2>Welcome to Car Configurator</h2>
+            <p>Car Configurator is an innovative platform that allows users to design and customize their dream cars. Choose from a variety of car models, colors, rims, and other accessories to build the perfect car for your needs and preferences. Experience the ultimate car customization tool with realistic 3D visualization, save and compare options, and share your designs with friends and family.</p>
+            <a href="login" class="cta-button">Start Customizing</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Car Configurator. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+

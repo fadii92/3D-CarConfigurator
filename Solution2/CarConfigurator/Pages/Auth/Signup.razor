@@ -1,0 +1,170 @@
+﻿@page "/signup"
+@using CustomerLibraryDAL
+@using CustomerLibraryModel
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url('https://images.unsplash.com/photo-1593055339366-26882b66e012?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        background-size: cover;
+        background-position: center;
+        height: 100vh; /* Set the height of the body to 100% of the viewport height */
+    }
+    .bg-glass{
+            /* From https://css.glass */
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(1.5px);
+            -webkit-backdrop-filter: blur(1.5px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+</style>
+</head>
+    <div class="container pt-3 pb-3">
+        <div class="row">
+        <div class="col-lg-6 offset-lg-3 p-5 text-light bg-glass">
+            <EditForm Model="customermodel" OnSubmit="SaveUser">
+                <h1 class="fw-bolder">Signup</h1>
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <label for="firstName">First Name</label>
+                        <input type="text" @bind="customermodel.FirstName" class="form-control" id="firstName" placeholder="First Name" />
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" @bind="customermodel.LastName" class="form-control" id="lastName" placeholder="Last Name" />
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label for="phone">Phone</label>
+                        <input type="text" @bind="customermodel.Phone" class="form-control" id="phone" placeholder="Phone" />
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <label for="email">Email</label>
+                        <input type="text" @bind="customermodel.Email" class="form-control" id="email" placeholder="Email" />
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label for="city">City</label>
+                        <input type="text" @bind="customermodel.City" class="form-control" id="city" placeholder="City" />
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label for="username">Username</label>
+                        <input type="text" @bind="customermodel.Username" class="form-control" id="username" placeholder="Username" />
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <label for="pass">Password</label>
+                        <input type="password" @bind="customermodel.Pass" class="form-control" id="pass" placeholder="Password" />
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label for="confirmPassword">Confirm Password</label>
+                        <input type="password" @bind="customermodel.ConfirmPassword" class="form-control" id="confirmPassword" placeholder="Confirm Password" />
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label for="Role">Role</label>
+                        <input type="text" @bind="customermodel.role" class="form-control" id="role" placeholder="Hint* User" />
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary mt-3">Register</button>
+                <p class="mt-2">Already have an account? <a href="login">Login</a></p>
+            </EditForm>
+        </div>
+    </div>
+    </div>
+
+@code {
+    private string? Message { get; set; }
+    private CustModel customermodel { get; set; } = new CustModel();
+    private List<CustModel> customersList = new List<CustModel>();
+    public void SaveUser()
+    {
+        int i = CustDAL.SaveCustomer(customermodel,"User");
+        if (i == 1)
+        {
+            Message = "Data Save Successfully";
+            GetCustomers();
+        }
+    }
+    protected override void OnInitialized()
+    {
+        GetCustomers();
+    }
+    private void GetCustomers()
+    {
+        customersList = CustDAL.GetCustomerModels();
+    }
+}
+
+@* <EditForm Model="customermodel" OnSubmit="SaveUser" class="mt-4">
+    <div class="form-row">
+        <div class="form-group col-md-4">
+            <input type="text" @bind="customermodel.FirstName" class="form-control" placeholder="First Name" />
+        </div>
+        <div class="form-group col-md-4">
+            <input type="text" @bind="customermodel.LastName" class="form-control" placeholder="Last Name" />
+        </div>
+        <div class="form-group col-md-4">
+            <input type="text" @bind="customermodel.Phone" class="form-control" placeholder="Phone" />
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-4">
+            <input type="text" @bind="customermodel.Email" class="form-control" placeholder="Email" />
+        </div>
+        <div class="form-group col-md-4">
+            <input type="text" @bind="customermodel.City" class="form-control" placeholder="City" />
+        </div>
+        <div class="form-group col-md-4">
+            <input type="text" @bind="customermodel.Username" class="form-control" placeholder="UserName" />
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-4">
+            <input type="text" @bind="customermodel.Pass" class="form-control" placeholder="Pass" />
+        </div>
+        <div class="form-group col-md-4">
+            <input type="text" @bind="customermodel.ConfirmPassword" class="form-control" placeholder="Confirm Password" />
+        </div><br />
+    </div>
+    <button type="submit" class="btn btn-primary"><a href="login" class="text-white">Register</a></button>   <a href="addnewcustomer" class="btn btn-dark btn-sm ml-2">Add New Customer</a>
+</EditForm> *@
+
+@* <table class="table table-bordered mt-4">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Phone</th>
+            <th>Email</th>
+            <th>City</th>
+            <th>Username</th>
+            <th>Pass</th>
+            <th>ConfirmPassword</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in customersList)
+        {
+            <tr>
+                <td>@item.FirstName</td>
+                <td>@item.LastName</td>
+                <td>@item.Phone</td>
+                <td>@item.Email</td>
+                <td>@item.City</td>
+                <td>@item.Username</td>
+                <td>@item.Pass</td>
+                <td>@item.ConfirmPassword</td>
+                <td>
+                    <button class="btn btn-danger btn-sm"><a style="color: white;">Delete</a></button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table> *@

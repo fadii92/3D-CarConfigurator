@@ -1,0 +1,130 @@
+﻿@page "/alogin"
+@using BlazorServerAuthenticationAndAuthorization.Authentication
+@inject UserAccountService userAccountService
+@inject IJSRuntime js
+@inject AuthenticationStateProvider authStateProvider
+@inject NavigationManager navManager
+
+@* <div class="row">
+    <div class="col-lg-4 offset-lg-4 pt-4 pb-4 border">
+        <div class="mb-3 text-center">
+            <h3>Login</h3>
+        </div>
+        <div class="mb-3">
+            <label>User Name</label>
+            <input @bind="model.UserName" class="form-control" placeholder="User Name"/>
+        </div>
+        <div class="mb-3">
+            <label>Password</label>
+            <input @bind="model.Password" class="form-control" placeholder="Password" />
+        </div>
+        <div class="mb-3 d-grid gap-2">
+            <button @onclick="Authenticate" class="btn btn-primary">Login</button>
+        </div>
+    </div>
+</div>
+
+@code {
+    private class Model
+    {
+        public string UserName { get; set; }
+        public string Password { get; set; }
+    }
+    private Model model = new Model();
+
+    private async Task Authenticate()
+    {
+        var userAccount = userAccountService.GetByUserName(model.UserName);
+        if(userAccount==null || userAccount.Password != model.Password)
+        {
+            await js.InvokeVoidAsync("Invalid Username or Password");
+            return;
+        }
+        var customAuthStateProvider = (CustomAuthenticationStateProvider)authStateProvider;
+        await customAuthStateProvider.UpdateAuthenticationState(new UserSession
+            {
+                UserName = userAccount.UserName,
+                Role = userAccount.Role
+            });
+        navManager.NavigateTo("/", true);
+    } *@
+<div class="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://images.unsplash.com/photo-1593055339366-26882b66e012?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover;
+            background-position: center;
+            height: 100vh; /* Set the height of the body to 100% of the viewport height */
+        }
+
+        .bg-glass {
+            /* From https://css.glass */
+            background: rgba(255, 255, 255, 0.21);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(4.9px);
+            -webkit-backdrop-filter: blur(4.9px);
+            border: 1px solid rgba(255, 255, 255, 0.35);
+        }
+    </style>
+    <div class="container pt-3 pb-3">
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3 p-5 text-light bg-glass">
+                <div class="mb-3 text-center">
+                    <h3>Login</h3>
+                </div>
+                <div class="mb-3">
+                    <label for="userName" class="form-label">User Name</label>
+                    <input type="text" @bind="model.UserName" class="form-control" id="userName" placeholder="User Name" required />
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" @bind="model.Password" class="form-control" id="password" placeholder="Password" required />
+                </div>
+                <div class="mb-3 d-grid gap-2">
+                    <button @onclick="Authenticate" class="btn btn-primary" type="button">Login</button>
+                    @* <button id="signupButton" type="button" class="btn btn-primary">Signup</button>
+                    <script>
+                        document.getElementById("signupButton").addEventListener("click", function () {
+                            window.location.href = "signup";
+                        });
+                    </script>  *@
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@code {
+    private class Model
+    {
+        public string UserName { get; set; }
+        public string Password { get; set; }
+    }
+
+    private Model model = new Model();
+
+    private async Task Authenticate()
+    {
+        var userAccount = userAccountService.GetByUserName(model.UserName);
+        if (userAccount == null || userAccount.Password != model.Password || userAccount.Role != "Administrator")
+        {
+            await js.InvokeVoidAsync("InvalidUsernameOrPassword");
+            return;
+        }
+        var customAuthStateProvider = (CustomAuthenticationStateProvider)authStateProvider;
+        await customAuthStateProvider.UpdateAuthenticationState(new UserSession
+            {
+                UserName = userAccount.UserName,
+                Role = userAccount.Role
+            });
+        navManager.NavigateTo("/", true);
+    }
+}
+
+
